@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: ishaan102/ai-task-platform-worker:d91e072
+          image: ishaan102/ai-task-platform-worker:886d349
           env:
             - name: MONGO_URI
               valueFrom:
